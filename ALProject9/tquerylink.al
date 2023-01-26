@@ -11,6 +11,9 @@ query 50101 "Item Attribute Value Mapping"
             column(Description; Description)
             {
             }
+            column(DEMO; "Assembly BOM")
+            {
+            }
             dataitem(Item_Attribute_Value_Mapping; "Item Attribute Value Mapping")
             {
                 DataItemLink = "No." = Item."No.";
