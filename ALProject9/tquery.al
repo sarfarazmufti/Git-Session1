@@ -7,7 +7,9 @@ query 50100 "Lot Inventory at Date"
     {
         dataitem(Warehouse_Entry; "Warehouse Entry")
         {
-
+            column(Articolo; "Item No.")
+            {
+            }
             column(Lotto; "Lot No.")
             {
             }
